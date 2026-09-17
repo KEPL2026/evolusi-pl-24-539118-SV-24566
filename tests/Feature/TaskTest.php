@@ -18,8 +18,6 @@ class TaskTest extends TestCase
             'is_completed' => false,
         ]);
 
-        $this->assertTrue(false);
-
         $response = $this->getJson('/api/tasks');
 
         $response->assertOk()
