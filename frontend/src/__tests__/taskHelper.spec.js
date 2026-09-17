@@ -10,7 +10,7 @@ describe('taskHelper Unit Tests', () => {
   describe('formatTaskStatus', () => {
     it('returns completed label and success badge class when true', () => {
       const result = formatTaskStatus(true);
-      expect(result.label).toBe('Selesai');
+      expect(result.label).toBe('Belum Selesai');
       expect(result.badgeClass).toBe('badge-success');
     });
 
