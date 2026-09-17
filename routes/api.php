@@ -10,8 +10,12 @@ use App\Http\Controllers\Auth\PasswordResetLinkController;
 use App\Http\Controllers\Auth\RegisteredUserController;
 use App\Http\Controllers\Auth\VerifyEmailController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\TaskController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+
+// Task CRUD Routes (To-Do List)
+Route::apiResource('tasks', TaskController::class);
 
 // Public routes (guest)
 Route::middleware('guest')->group(function () {
