@@ -87,14 +87,8 @@ export default function Dashboard() {
             <nav className="border-b border-gray-200 bg-white px-6 py-4 shadow-sm">
                 <div className="mx-auto flex max-w-5xl items-center justify-between">
                     <div className="flex items-center gap-3">
-                        <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600 font-bold text-white shadow">
-                            ✓
-                        </div>
                         <div>
                             <span className="text-lg font-bold text-gray-900">TaskFlow</span>
-                            <span className="ms-2 rounded bg-indigo-100 px-2 py-0.5 text-xs font-semibold text-indigo-700">
-                                To-Do List
-                            </span>
                         </div>
                     </div>
                     <div className="flex items-center gap-4">

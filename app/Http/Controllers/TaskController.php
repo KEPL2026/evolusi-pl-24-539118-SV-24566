@@ -74,4 +74,3 @@ class TaskController extends Controller
         ]);
     }
 }
-
